@@ -1,4 +1,4 @@
 import math
-r = int(input("anna säde"))
-r = math.pi 
-print(r)
+r1 = float(input("Anna säde:"))
+tulos = print(r1 *2 + 2 * math.pi)
+print(tulos)
