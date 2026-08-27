@@ -1,10 +1,7 @@
-
 lista = []
-
 while True:
-    syöte = int(input("anna luku"))
+    syöte = input("anna luku: ")
     if syöte =="":
-        break
+        print(f"maximi: {max(lista)} minimi: {min(lista)}"); break
     else:
-        lista.append(syöte)
-        print(lista)    
+        lista.append(int(syöte)); print(lista)
