@@ -1,0 +1,1 @@
+syöte = int(input("anna kokonais luvut"))

@@ -1,5 +1,5 @@
-Salsana = "123"
-käytäjätunnus = "123"
+Salsana = "Python"
+käytäjätunnus = "rules"
 Väärät_tiedot = 0
 
 
