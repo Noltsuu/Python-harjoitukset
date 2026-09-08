@@ -8,3 +8,4 @@ while True:
         tarvitavapituus = a -kuhamitta
         print(f"laske kuha takaisin järveen! \ntarvitavapituus {tarvitavapituus}!")
         break
+    
