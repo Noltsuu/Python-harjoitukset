@@ -4,8 +4,13 @@ v = (
     ("kesä", 6, 8),
     ("syksy", 9, 11)
 )
-luku = int(input("anna kuukausi luku: "))
+
+luku = int(input("Anna kuukausiluku: "))
 
 for nimi, alku, loppu in v:
-    if alku <= luku <= loppu:
-        print(nimi)
+    if alku <= loppu:
+        if alku <= luku <= loppu:
+            print(nimi)
+    else:
+        if luku >= alku or luku <= loppu:
+            print(nimi)
