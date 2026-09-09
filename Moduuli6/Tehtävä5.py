@@ -1,12 +1,5 @@
-lista = []
+lista = [1, 2, 4, 5, 6, 7, 8, 9, 10]
 lista2 = []
-import random
-def lista_gen(lista):
-    for _ in range(10):
-        x = random.randint(1, 100)
-        r = random.randint(1, x)
-        lista.append(r)
-lista_gen(lista)
 def lista_muuntaja(lista,lista2):
     for luku in lista:
         if luku % 2 == 0:

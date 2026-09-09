@@ -1,7 +1,9 @@
+Vuoden_ajat = (
+    ("Talvi", 0,3),
+    ("kevät", 3,6),
+    ("kesä", 6,9),
+    ("syksy", 9,12),
+)
 
-gallon_l = 5.422
-
-gallon = 2
-litra = gallon_l * gallon
-print(litra)
+listaa = []
 

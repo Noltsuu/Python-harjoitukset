@@ -1,6 +1,4 @@
-gallon_l = 3.785
-
-def bensiinin():
+def bensiinin(gallon_l):
     while True:
         gallon = float(input("anna gallon: "))
         if gallon <= -0:
@@ -9,4 +7,4 @@ def bensiinin():
             litra = gallon_l * gallon
             print(litra)
             continue
-bensiinin()
+bensiinin(3.785)
